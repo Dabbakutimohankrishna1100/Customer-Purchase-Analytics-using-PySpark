@@ -1,0 +1,42 @@
+🛒 Customer Purchase Analytics using PySpark
+📌 Overview
+
+This project demonstrates how to perform customer purchase analytics using PySpark (Python + SQL concepts).
+We analyze a sample dataset of customer transactions to answer key business questions like:
+
+How much did each customer spend?
+
+Which product is the most popular?
+
+Who are the high-value customers (spent more than a threshold)?
+
+The project uses PySpark DataFrames and SQL-style operations to process and analyze data efficiently.
+
+Tech Stack
+
+Programming Language: Python 🐍
+
+Big Data Framework: Apache Spark (PySpark)
+
+Data Processing: Spark SQL / DataFrame APIs
+
+Environment: Jupyter Notebook / Google Colab
+Features Implemented
+
+Load and Explore Dataset
+
+Read CSV data into Spark DataFrame.
+
+Display the raw dataset.
+
+Total Purchases per Customer
+
+Group by CustomerID and calculate the total amount spent.
+
+Most Popular Product
+
+Find the product with the maximum number of purchases.
+
+High-Value Customers
+
+Filter customers whose total spending is greater than $100.
